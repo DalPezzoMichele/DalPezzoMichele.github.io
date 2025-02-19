@@ -1,1 +1,75 @@
 # DalPezzoMichele.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Colorata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-color: #ff6f61;
+            padding: 20px;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #ffe066;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            background-color: #ffcc00;
+        }
+        footer {
+            text-align: center;
+            background-color: #6a4c93;
+            color: white;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Benvenuti nella Pagina Colorata
+    </header>
+    <section>
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>Questa è la prima card. Colorata e divertente!</p>
+        </div>
+        <div class="card">
+            <h2>Card 2</h2>
+            <p>Questa è la seconda card. Dai un'occhiata!</p>
+        </div>
+        <div class="card">
+            <h2>Card 3</h2>
+            <p>Questa è la terza card. Più colori per tutti!</p>
+        </div>
+    </section>
+    <footer>
+        © 2025 Pagina Colorata. Tutti i diritti riservati.
+    </footer>
+</body>
+</html>
